@@ -1,0 +1,968 @@
+@import 'colores.styl'
+@import 'iconos.styl'
+@import 'nib'
+//@import 'nib/vendor'
+
+//vendor-prefixes = ms moz webkit
+
+body
+    font-family "Helvetica Neue", Helvetica, Arial, sans-serif
+    background white
+    margin 0
+    
+#contenedor
+#contenedor2 
+	display inline-block
+	width 100%
+	min-height 100vh 
+	text-align center
+    
+#contenedor
+	background white
+#contenedor2 
+	background c_gris1
+		
+#logo
+	width 200px
+	float left
+	padding 8px 10px
+	margin-left 3px
+.redes_sociales
+	text-decoration none
+	display inline-block
+	text-decoration none
+	font-size 30px
+	padding 15px 8px
+	float right
+	color silver
+	transition all .3s ease-in-out 0s
+	&:hover
+		color white
+nav 
+	display inline-block
+	width 100%
+	float left
+.nav_c1
+	background c_nav1
+.nav_c2
+	background c_azul03
+.nav_item
+	color white 
+	text-decoration none
+	padding 20px 20px
+	display inline-block
+	color c_gris1
+	transition all .3s ease-in-out 0s
+	&:hover 
+		color white
+		text-shadow 0px 0px 10px white
+.nav_item
+	float left
+.responsive_menu
+	color white 
+	text-decoration none
+	padding 20px 20px
+	display none
+	color c_gris1
+	transition all .3s ease-in-out 0s
+	float left
+	&:hover 
+		color white
+		text-shadow 0px 0px 10px white
+	
+.responsive_items
+	display inline-block
+	float left
+.cont_ctrl_gestion	
+	width 100%
+	display inline-block
+.ctrl_gestion
+	background white 
+	display inline-block
+	width 70%
+	padding 10px
+	margin 20px 0
+	border-radius 5px
+	section
+		display inline-block
+		float left
+		p 
+			color c_gris2
+			text-align left
+			display inline-block
+			margin 0
+			width 100%
+		h1 
+			text-align left
+			margin 0
+			padding 5px 0
+		&:first-child
+			width 60%	
+		&:last-child
+			width 40%
+			text-align right
+
+//BOTOENES
+
+.optionx
+	display inline-block
+	width 80px
+	text-decoration none
+	color white
+	text-align center	
+	//margin-right 10px
+	span 
+
+		width 30px
+		padding 20px 18px
+		font-size 24px
+		border-radius 50%
+		display inline-block
+		transition all .3s ease-in-out 0s
+		b
+			border-radius 50%
+			position absolute
+			background color_primario
+			color white
+			display inline-block
+			padding 3px 4px 6px 4px
+			margin 0
+			margin-top -15px	
+			font-size 12px
+			width 13px	
+		.cir_rojo
+			background color_cont_citas
+			font-family Arial
+			padding 4px
+	label 
+		color black
+		font-size 14px
+		padding-top 5px
+		display block
+
+.op_usuarios
+	background c_btn_guardar
+	transition all .3s ease-in-out 0s
+	&:hover 
+		background c_btnh_guardar
+
+.buscar 
+	display inline-block
+	width 100%
+	margin-bottom 20px
+	form 
+		width 30%
+		display inline-block
+		input 
+			width 98%
+			width white
+			display inline-block
+			font-size 18px
+			padding 5px
+
+#banner
+	background url('../img/fondo03.jpg') no-repeat
+	background-size cover
+	background-attachment fixed
+	width 100%
+	height auto
+	display inline-block
+	float left
+	text-align center	
+	
+	section 
+		width 70%
+		height auto
+		background transparent
+		display inline-block
+		color white
+		margin 90px 0px
+		h1 
+			text-align left
+			font-size 50px
+			width 50%
+			margin 0
+		p
+			text-align left
+			font-size 20px
+			width 60%
+.titulo 
+	background rgba(45, 200, 237, 0.77)			
+.btn_editar_01
+	background transparent
+	border 2px solid silver
+	color silver
+	display inline-block
+	font-size 14px
+	padding 2px 10px
+	border-radius 5px
+	text-decoration none
+	&:hover 
+		background c_primario
+		color white
+		border-color c_primario
+.btn_registrar
+	background c_boton
+	//border 2px solid white
+	border-radius 5px
+	color c_boton_texto
+	text-decoration none
+	padding 10px 30px 
+	display inline-block
+	font-size 20px
+	transition all .3s ease-in-out 0s
+	&:hover
+		background white
+		color black
+		
+.btn_ingresar
+	background c_primario
+	display inline-block
+	text-decoration none
+	font-size 18px
+	padding 10px 20px
+	margin 9px 10px 
+	float right
+	color white
+	//border 1px solid silver
+	border-radius 5px
+	transition all .3s ease-in-out 0s
+	&:hover 
+		background white
+		color black
+	
+.articulos
+	background transparent
+	display inline-block
+	width 80%
+	text-align center
+	padding 60px 0
+	article
+		background transparent
+		width 33.33%
+		display inline-block
+		float left
+		img
+			width 150px
+			height 150px
+			border-radius 50%
+		h3
+		p
+			padding 0 20px
+		p 
+			text-align justify
+			color c_gris2
+
+.informacion
+	background c_gris1
+	width 100%
+	display inline-block
+	section 
+		background transparent
+		width 80%
+		display inline-block
+		padding 25px 25px 25px 50px
+		img 
+			width 250px 
+			height 250px
+			float left
+			border-radius 50%
+			padding 25px
+		.info 
+			width 60%
+			background transparent
+			float left
+			padding 70px 0
+			h2
+			p
+				text-align left
+			h2 
+				font-size 35px 
+				margin 0
+			p 
+				font-size 20px
+.auspicio
+	width 100%
+	display inline-block
+	float left
+	padding 30px 0 60px 0
+	h2 
+		width 100%
+		font-size 30px
+	section 
+		display inline-block
+		width 70%
+		article
+			display inline-block
+			margin 10px
+			img 
+				height 70px
+.mensaje
+	background c_primario
+	display inline-block
+	float left
+	width 100%
+	padding 30px 0
+	color white
+	section 
+		display inline-block
+		width 70%
+		.m_derecha
+			width 60%
+			h3
+			p 
+				text-align left
+				margin 0
+			h3 
+				font-size 30px 
+			p 
+				font-size 20px
+		.m_izquierda
+			width 40%
+		.m_derecha
+		.m_izquierda
+			display inline-block
+			float left
+			
+.pie 
+	width 100%
+	display inline-block
+	padding 10px 0
+	background c_pie
+	color white
+
+
+//ACCESO
+
+.form_acceso
+	width 100%
+	background c_gris1
+	display inline-block
+	height 100vh
+	h2 
+		margin 0
+	img 
+		margin 50px 0
+	section 
+		width 300px
+		padding 30px 40px
+		background white
+		display inline-block
+		border-radius 5px
+		label
+			width 100%
+			text-align left
+			display inline-block
+			padding 10px 0
+		input
+			width 97%
+			padding 5px
+			display inline-block
+		button
+			background c_primario
+			padding 10px 20px 
+			color white 
+			border none
+			font-size 16px
+			width 100%
+			margin-top 20px
+			border-radius 5px
+			&:hover 
+				background c_primario_h
+.inf_form
+	display inline-block
+	width 300px
+	background silver
+	padding 10px 40px
+	margin-top 20px
+	border-radius 5px
+	a 
+		padding 10px 0
+		display inline-block
+		text-decoration none	
+		color c_gris2
+		&:hover
+			color black
+	
+.form_gestion
+	width 100%
+	display inline-block
+	float left
+	form 
+		width 65%
+		background white
+		display inline-block
+		padding 15px 20px
+		.frm_izquierda
+		.frm_derecha
+			display inline-block
+			float left
+			text-align left
+			label
+				width 100%
+				display inline-block
+				padding 10px 0
+			input[type="password"]
+			input[type="text"]
+			input[type="number"]
+			input[type="email"]
+			input[type="file"]	
+			input[type="date"]	
+			textarea
+				width 90%
+				display inline-block
+				padding 5px
+				font-size 15px
+			select
+				width 93%
+				font-size 20px
+			textarea
+				height 100px
+		.frm_izquierda
+			width 50%
+		.frm_derecha
+			width 50%
+			label
+			input[type="password"]
+			input[type="text"]
+			input[type="number"]
+			input[type="email"]
+			input[type="file"]	
+			input[type="date"]	
+			select
+			textarea
+				margin-left 22px
+.img_form
+	width 100%
+	display inline-block
+	text-align center
+	img
+		margin-top 5px
+		width 250px
+		display inline-block
+		border-radius 7px
+.estadoitem
+	display inline-block
+	margin 0 20px
+	float left
+	
+	input[type="radio"]
+	p 
+		float left
+		display inline-block
+		margin 0 
+		padding 0
+	p 
+		padding-left 5px
+
+.botones
+	padding 20px 0 10px 0
+	display inline-block
+	width 100%			
+	text-align left
+	.b_guardar
+		background c_btn_guardar
+		color white
+		border none
+		font-size 20px
+		padding 10px 20px
+		display inline-block
+		border-radius 5px
+		&:hover 
+			background c_btnh_guardar
+	.b_modificar
+		background c_btn_modificar
+		color white
+		border none
+		font-size 20px
+		padding 10px 20px
+		display inline-block
+		border-radius 5px
+		&:hover 
+			background c_btnh_modificar
+	.b_descartar
+		background c_btn_descartar
+		color white
+		border none
+		font-size 20px
+		padding 10px 20px
+		display inline-block
+		border-radius 5px
+		&:hover 
+			background c_btnh_descartar
+
+
+//REGISTROS
+
+.cont_registros
+	width 100%
+	min-height 370px
+	display inline-block
+	float left
+	padding-bottom 50px
+	section 
+		width 75%
+		display inline-block 
+		color c_gris2
+		h2 
+		 text-align left
+		 color c_gris2
+		.reg_item
+			background white
+			display inline-table
+			width 200px
+			text-decoration none
+			color c_gris2
+			font-size 15px
+			text-align left
+			margin 5px
+			padding 10px
+			height 80px
+			border-left 5px solid c_primario
+			transition all .3s ease-in-out 0s
+			p 
+				margin 0
+				font-size 13px
+				.icon-visto1
+					color #31E1B4
+				.icon-bloqueo
+					color #FF433A
+				.icon-visto1
+				.icon-bloqueo
+					padding-right 5px
+			&:hover 
+				border-left 5px solid c_pie
+				box-shadow 0 0 10px rgba(0, 0, 0, 0.17)
+				background c_primario
+				color white
+		.reg_lista
+			width 100%
+			height auto
+			
+.reg_preguntas
+	background c_azul03
+	display inline-block
+	width 100%
+	margin 5px 0
+	&:hover 
+		background c_azul02
+	.item_pregunta
+		display inline-block
+		width 70%
+		color white
+		p 
+			text-align left
+			padding-left 15px
+	.item_respuesta
+		background white
+		display inline-block
+		width 30%
+		color c_gris2
+	.item_pregunta
+	.item_respuesta
+		float left
+.user
+	float right
+	margin 0
+	a
+		display inline-block
+		text-decoration none
+		vertical-align middle
+		color white
+		&:hover 
+			color white
+			text-shadow 0px 0px 10px white
+	p
+		padding 20px
+		margin 0
+		float left
+		span 
+			padding-left 5px
+.sub-items
+    right        0
+    position     absolute
+    background  white
+    padding      0
+    margin       0  
+    display      none
+    width        auto
+    border 		 1px solid silver
+    box-shadow 0 6px 12px rgba(0,0,0,.175)
+    border-radius 0 0 5px 5px
+    li 
+    	text-align left
+    	display block
+    	a 
+    		color   black
+   			display inline-block
+    		width   180px
+    		padding 14px
+    		transition all .3s ease-in-out 0s
+    		span
+    			padding-right 5px
+    		&:hover
+    			background c_primario
+    			color white
+
+//ALUMNO
+#cont_tema
+	display inline-block
+	width 90%
+	section 
+		display inline-block
+		float left
+		&:first-child
+			width 60%
+			h1,p
+				text-align left
+			h1 
+				margin 20px 0 0 0
+			p 
+				margin 0
+		&:last-child
+			width 40%
+			h2
+				text-align left
+				color c_gris2
+				padding-left 15px
+
+#video_tema
+	margin-top 10px
+.info_tema
+	background white
+	display inline-block
+	width 100%
+	border-radius 5px
+	margin 10px 0
+	text-align justify
+	color c_gris2
+	h4
+		margin 20px 20px 0 20px
+	p 
+		display inline-block
+		padding 0 20px 20px 20px 
+		width 100%
+	
+.cont_comentarios
+	background white
+	margin 28px 15px
+	min-height 530px
+	form 
+		width 100%
+		display inline-block
+		textarea
+			width 90%
+			height 50px
+			margin-top 20px
+			border-color silver
+		button
+			background c_btn_guardar
+			border none
+			float right
+			margin-right 20px
+			padding 10px 20px
+			font-size 15px
+			color white
+			border-radius 5px
+			transition all .3s ease-in-out 0s
+			&:hover 
+				background c_btnh_guardar
+
+.controles_tema
+	width 100%
+	display inline-block
+	text-align right
+.btn_evaluar
+	background c_primario
+	color white
+	padding 5px 10px
+	text-decoration none
+	display inline-block
+	border-radius 5px
+	transition all .3s ease-in-out 0s
+	&:hover 
+		background c_azul03
+
+.lista_comentarios
+	display inline-block
+	width 100%
+	max-height 420px
+	overflow scroll
+	.reg_comentario
+		width 90%
+		display inline-block
+		border-left 4px solid c_primario
+		text-align left
+		margin-top 10px
+		b,p 
+			display inline-block
+			color c_gris2
+			margin 0
+		b 
+			padding 10px 
+			width 90%
+		p 
+			padding 0 10px 10px 10px
+			font-size 14px
+		span 
+			width 100%
+			text-align right
+			display inline-block
+			font-size 10px
+			color silver
+		
+.reg_evaluacion
+	background white
+	display inline-block
+	width 100%
+	margin 5px 0
+	&:hover 
+		background c_gris3
+	.izquierda
+		display inline-block
+		width 80%
+		color black
+		p 
+			text-align left
+			padding 15px 15px 0 15px
+			margin 0
+			font-size 20px
+		span 
+			text-align left
+			width auto
+			display inline-block
+			padding 5px 15px 15px 15px
+			float left
+			font-size 12px
+			color c_gris2
+	.derecha
+		display inline-block
+		width 20%
+		color c_gris2
+		p 
+			color white 
+			display inline-block
+			padding 5px 20px
+			font-size 20px
+			border-radius 5px
+	.izquierda
+	.derecha
+		float left
+
+.c_rojo
+	p
+	background c_rojo
+.c_amarillo 
+	p
+	background c_amarillo
+.c_verde
+	p
+	background c_verde
+	
+
+.reg_pregunta_evaluar
+	display inline-block
+	width 100%
+	h3 
+		text-align left
+	section  
+		width 100%
+		background white
+		border-radius 5px
+		.preg_imagen
+		.preg_alternativas
+			display inline-block
+			float left
+		.preg_imagen
+			width 30%
+			img 
+				height 200px
+				width 90%
+		.preg_alternativas
+			width 70%
+			text-align left
+
+.b_evaluar
+	display inline-block
+	border none 
+	background c_btn_guardar
+	font-size 20px
+	border-radius 5px 
+	padding 10px 20px
+	margin-top 6px
+	color c_boton_texto
+	&:hover 
+		background c_btnh_guardar
+		
+.cont_resultado
+	background white 
+	width 400px
+	display inline-block
+	border-radius 10px
+	padding 20px
+	margin-top 40px
+	p 
+		width 100%
+		color white
+		padding 10px 0
+		display inline-block
+		font-size 25px
+		margin 0
+		border-radius 5px
+	section 
+		width 100%
+		text-align center
+		display inline-block
+		b 
+			font-size 100px
+			color black
+		img 
+			display inline-block
+.boton_continuar
+	background c_btn_guardar
+	color c_boton_texto 
+	padding 10px 20px
+	text-decoration none
+	display inline-block
+	border-radius 5px
+				
+
+
+//MENSAJES
+.mensaje_gestion
+	width 300px
+	display inline-block
+	box-shadow 0px 0px 20px rgba(0, 0, 0, 0.30)
+	position fixed
+	right 30px
+	bottom 30px
+	color white
+	section 
+		display inline-block
+		float left
+		&:first-child
+			width 30%
+			text-align center
+			span 
+				font-size 50px
+				padding 50px 0
+				display inline-block
+				color white
+		&:last-child
+			width 70%
+			h2 
+				margin 0
+				font-size 20px
+				display inline-block
+				float left
+				padding 0 20px 10px 0
+			p 
+				display inline-block
+				margin 0
+				float left
+				padding 0 20px 10px 0
+				font-size 15px
+				margin-bottom 15px
+			.btn_cerrar
+				display inline-block
+				width 100%
+				a 
+					display inline-block
+					float right
+					color white
+					transition all .3s ease-in-out 0s
+					&:hover 
+						color c_gris2
+					span 
+						padding 5px
+						display inline-block
+.mensaje_exito
+	background c_primario 
+	animation-name MiAnimacion
+	animation-duration 1s
+.mensaje_error
+	background c_error
+	animation-name MiAnimacion
+	animation-duration 1s
+
+
+.c_verde_mark
+	color c_verde
+	padding-right 5px
+.c_amarillo_mark
+	color c_amarillo
+	padding-right 5px
+.c_rojo_mark
+	color c_rojo
+	padding-right 5px
+	
+	
+@keyframes MiAnimacion 
+    from 
+    	//transform scale(0.9)
+    	opacity 0
+    	transform translate(0px,20px)
+    to
+    	//transform scale(1)
+    	opacity 1
+    	transform translate(0px,0px)
+    
+
+ @media (max-width: 900px)
+ 
+
+	.responsive_menu
+		display inline-block
+	.responsive_items
+		display none
+		width 100%
+	.nav_item
+		width 100%
+		padding 20px 0
+		background #205C90
+		&:hover 
+			background #194A75
+	.form_gestion 
+		form 
+			.frm_izquierda
+				width 100%  
+				label
+				input[type="password"]
+				input[type="text"]
+				input[type="number"]
+				input[type="email"]
+				input[type="file"]	
+				input[type="date"]	
+				select
+				textarea
+					width 95%
+					margin-left 0px 
+			.frm_derecha
+				width 100%  
+				label
+				input[type="password"]
+				input[type="text"]
+				input[type="number"]
+				input[type="email"]
+				input[type="file"]	
+				input[type="date"]	
+				select
+				textarea
+					width 95%
+					margin-left 0px 	
+
+	#cont_tema
+		section 
+			&:first-child
+				width 100%
+			&:last-child
+				width 100%
+
+
+
+
+
+
+
+
+
